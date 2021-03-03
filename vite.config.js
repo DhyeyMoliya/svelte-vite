@@ -11,12 +11,8 @@ export default defineConfig({
     },
     plugins: [
         svelte({
-            emitCss: true,
-            compilerOptions: {
-                dev: true,
-                hydratable: true
-            },
-            hot: true
+            emitCss: false,
+            hot: false
         })
     ]
 })
